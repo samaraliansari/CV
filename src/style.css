@@ -1,0 +1,405 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+body{
+    background-color: #1a1a1a;
+}
+
+.home{
+    width: 100%;
+    height: 100vh;
+}
+
+.nav{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    position: fixed;
+    z-index: 100;
+    background-color: #1a1a1a;
+}
+
+.nav h2{
+    padding: 30px 30px;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav ul li{
+    list-style-type: none;
+    padding: 10px 40px;
+}
+
+.hero{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.leftHero{
+    width: 60%;
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+}
+
+.leftHero h1{
+    padding: 20px 0px 20px 0px;
+    font-size: 80px;
+}
+
+.leftHero h3{
+    font-size: 20px;
+    justify-content: left;
+}
+
+.leftHero p{
+    padding: 10px 0px 10px 0px;
+    font-size: 20px;
+}
+
+.rightHero{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    transform: rotate(2deg);
+}
+
+.about{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about h2{
+    font-size: 70px;
+    padding: 100px;
+    font-style: italic;
+}
+
+.aboutSectionFrame{
+    width: 50%;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    transform: rotate(1deg);
+}
+
+.aboutSection{
+    width: 90%;
+    height: 90%;
+    padding: 20px;
+    margin: 10px;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    transform: rotate(-1deg);
+}
+
+.skillSection{
+    padding: 20px 20px;
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skillSection h2{
+    font-size: 70px;
+    padding: 100px;
+    font-style: italic;
+}
+
+.skill{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skillSet{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+.skillList{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+}
+
+.skillList li{
+    margin: 20px;
+    list-style-type: none;
+}
+
+.skillBars{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+}
+
+.skillBar{
+    margin: 20px;
+    background-color: black;
+    width: 300px;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.progress{
+    height: 100%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.experiences{
+    width: 100%;
+    height: auto;
+    padding: 50px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.experiences h2{
+    font-size: 60px;
+    padding: 40px 40px;
+    font-style: italic;
+}
+
+.experience{
+    width: 80%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.time{
+    width: 30%;
+    height: auto;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.experienceDetails{
+    width: 70%;
+    height: auto;
+    font-size: 30px;
+}
+
+.experienceDetails p{
+    font-size: 15px;
+    font-style: italic;
+}
+
+.projectSection{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projectSection h1{
+    font-size: 70px;
+    padding: 100px;
+    font-style: italic;
+}
+
+.projects{
+    width: 90%;
+    height: 100%;
+    margin: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.projectFrame{
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    transform: rotate(2deg);   
+}
+
+.project{
+    width: 90%;
+    height: 90%;
+    padding: 20px;
+    margin: 10px;
+    background-color: #1a1a1a;
+    border-radius: 10px;;
+    transform: rotate(-1deg);
+}
+
+.projectImage{
+    width: 100%;
+    height: 250px;
+    background-color: white;
+}
+
+.toolsSection{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+}
+
+.toolsSection h2{
+    font-size: 70px;
+    padding: 100px;
+    font-style: italic;
+}
+
+.toolsList{
+    margin: 10px;
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.toolsList ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.toolsList li{
+    padding: 5px;
+    display: inline;
+    font-size: 30px;
+    flex-wrap: wrap;
+}
+
+.contactMeSection{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactMe{
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.contactMe h1{
+    font-weight: 700;
+    padding: 20px 20px;
+}
+
+.contactMe input{
+    color: black;
+    border-radius: 10px;
+    width: 80%;
+    height: 15px;
+    padding: 20px 20px;
+    margin: 10px;
+    word-wrap: break-word;
+}
+
+.contactMe button{
+    width: 30%;
+    height: 40px;
+    border-radius: 10px;
+    color: black;
+    background-color: white;
+}
+
+.footer{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footerContact{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+}
+
+.footerSocialMedia{ 
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+}
+
+.footer p{
+    font-size: 20px;
+    font-style: italic;
+}
+
+.footer li{
+    font-size: 20px;
+    font-style: italic;
+    list-style-type: none;
+}
+
+.footerText{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
