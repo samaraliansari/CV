@@ -82,9 +82,19 @@ body{
 .frame{
     width: 400px;
     height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: white;
-    border-radius: 10px;
-    transform: rotate(2deg);
+    transform: rotate(1deg);
+}
+
+.frame img{
+    height: 95%;
+    width: 95%;
+    background-size: cover;
+    transform: rotate(-2deg);
+    
 }
 
 .about{
