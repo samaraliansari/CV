@@ -82,7 +82,6 @@ body{
 }
 
 .leftHero h1:hover{
-    transform: scale(1.1) translateY(-5px) translateX(5px) rotate(-1deg);
     color: cyan;
     transition: 0.5s ease-in-out;
     cursor: grab;
@@ -104,9 +103,10 @@ span{
 }
 
 .heroButton{
-    width: 25%;
+    height: 10%;
+    width: 30%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 20px 0px;
     flex-direction: row;
@@ -134,7 +134,6 @@ span{
     text-transform: capitalize;
 }
 
-
 .rightHero{
     width: 40%;
     height: 100%;
@@ -154,7 +153,8 @@ span{
 }
 
 .frame:hover{
-    transform: rotate(-1deg);
+    background-color: cyan;
+    transform: rotate(-2deg);
     transition: 0.5s ease-in-out;
 }
 
@@ -166,7 +166,8 @@ span{
 }
 
 .frame img:hover{
-    transform: rotate(2deg);
+    cursor: grab;
+    transform: rotate(4deg);
     transition: 0.5s ease-in-out;
 }
 
@@ -200,66 +201,6 @@ span{
     line-height: 1.5;
 }
 
-.skillSection{
-    padding: 20px 20px;
-    width: 100vw;
-    height: 100vh;
-    padding: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: left;
-    flex-direction: column;
-}
-
-.skillSection h2{
-    font-size: 70px;
-    padding: 30px;
-    color: cyan;
-}
-
-.skillSet{
-    width: 100vw;
-    display: flex;
-    justify-content: space-around;
-}
-
-.skillList{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.skillList li{
-    margin: 20px;
-    list-style-type: none;
-}
-
-.skillBars{
-    display: flex;
-    align-items: center;
-    justify-content: left;
-    flex-direction: column;
-}
-
-.skillBar{
-    margin: 20px;
-    background-color: white;
-    width: 300px;
-    height: 10px;
-    border-radius: 5px;
-    overflow: hidden;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-}
-
-.progress{
-    height: 100%;
-    background-color: cyan;
-    border-radius: 5px;
-}
-
 .experiences{
     width: 100%;
     height: auto;
@@ -272,7 +213,7 @@ span{
 
 .experiences h2{
     font-size: 60px;
-    padding: 40px 40px;
+    padding: 40px;
     color: cyan;
 }
 
@@ -302,8 +243,8 @@ span{
 }
 
 .experienceDetails p{
-    font-size: 15px;
-    font-style: italic;
+    padding: 10px;
+    font-size: 16px;
 }
 
 .projectSection{
@@ -317,7 +258,7 @@ span{
 
 .projectSection h1{
     font-size: 70px;
-    padding: 60px;
+    padding: 40px;
     color: cyan;
 }
 
@@ -337,7 +278,7 @@ span{
 
 .project{
     width: 350px;
-    height: 350px;
+    height: 400px;
     padding: 10px;
     background-color: #1a1a1a;
     border: 3px solid cyan;
@@ -355,10 +296,54 @@ span{
     border-radius: 10px;
 }
 
+.projectImage img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    transition: 0.5s ease-in-out;
+}
+
+.projectImage img:hover{
+    transform: scale(1.01);
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
 .projectTitle{
     color: cyan;
     font-size: 25px;
     padding: 10px 0px;
+}
+
+.projectButton{
+    height: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.projectButton button{
+    text-decoration: none;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    height: 30px;
+    width: 70px ;
+}
+
+.projectButton button:hover{
+    cursor: pointer;
+}
+
+.projectButton a{
+    text-decoration: none;
+    color: #1a1a1a;
+    text-transform: capitalize;
 }
 
 .toolsSection{
