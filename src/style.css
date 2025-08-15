@@ -81,6 +81,13 @@ body{
     font-size: 80px;
 }
 
+.leftHero h1:hover{
+    transform: scale(1.1) translateY(-5px) translateX(5px) rotate(-1deg);
+    color: cyan;
+    transition: 0.5s ease-in-out;
+    cursor: grab;
+}
+
 span{
     color: cyan;
     font-size: 30px;
@@ -95,6 +102,38 @@ span{
     padding: 10px 0px 10px 0px;
     font-size: 20px;
 }
+
+.heroButton{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    flex-direction: row;
+}
+
+.heroButton button{
+    text-decoration: none ;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: crimson;
+    height: 40px;
+    width: 80px ;
+    gap: 10px;
+}
+
+.heroButton button:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.heroButton a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
 
 .rightHero{
     width: 40%;
@@ -114,11 +153,21 @@ span{
     transform: rotate(1deg);
 }
 
+.frame:hover{
+    transform: rotate(-1deg);
+    transition: 0.5s ease-in-out;
+}
+
 .frame img{
     height: 95%;
     width: 95%;
     background-size: cover;
     transform: rotate(-2deg);
+}
+
+.frame img:hover{
+    transform: rotate(2deg);
+    transition: 0.5s ease-in-out;
 }
 
 .about{
@@ -452,14 +501,5 @@ span{
     align-items: center;
 }
 
-/*mobile phone*/
-@media only screen and (max-width: 767px) {
-    
-}
-
-/* iPad portrait */
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
-    /* Styles for iPad in portrait mode */
-}
 
 
