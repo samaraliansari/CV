@@ -464,5 +464,191 @@ span{
     align-items: center;
 }
 
+/* ==================== RESPONSIVE DESIGN ==================== */
+
+/* Tablets (iPads, width up to 1024px) */
+@media screen and (max-width: 1024px) {
+    .nav ul li {
+        padding: 10px 20px;
+    }
+
+    .leftHero h1 {
+        font-size: 60px;
+    }
+
+    .leftHero h3,
+    .leftHero p {
+        font-size: 18px;
+    }
+
+    .heroButton {
+        width: 50%;
+    }
+
+    .frame {
+        width: 300px;
+        height: 300px;
+    }
+
+    .about h2,
+    .projectSection h1,
+    .experiences h2 {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .experience {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .time, .experienceDetails {
+        width: 100%;
+    }
+
+    .contactMe {
+        width: 70%;
+        height: auto;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .footerContact, 
+    .footerSocialMedia {
+        width: 100%;
+        align-items: center;
+    }
+}
+
+/* Phones (width up to 768px) */
+@media screen and (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .leftHero {
+        width: 100%;
+        padding: 20px;
+        align-items: center;
+    }
+
+    .leftHero h1 {
+        font-size: 40px;
+    }
+
+    .leftHero h3,
+    .leftHero p {
+        font-size: 16px;
+    }
+
+    .heroButton {
+        width: 80%;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .rightHero {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .frame {
+        width: 250px;
+        height: 250px;
+    }
+
+    .about {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .about h2 {
+        font-size: 40px;
+    }
+
+    .aboutSection p {
+        font-size: 16px;
+    }
+
+    .projects {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project {
+        width: 90%;
+        height: auto;
+    }
+
+    .contactMe {
+        width: 90%;
+        padding: 15px;
+    }
+
+    .contactMe input {
+        width: 100%;
+    }
+
+    .contactMe button {
+        width: 50%;
+    }
+
+    .footer {
+        flex-direction: column;
+        text-align: center;
+        height: auto;
+        padding: 20px;
+    }
+
+    .footerContact p {
+        font-size: 20px;
+    }
+
+    .footer li {
+        font-size: 16px;
+    }
+}
+
+/* Small Phones (max-width 480px) */
+@media screen and (max-width: 480px) {
+    .leftHero h1 {
+        font-size: 32px;
+    }
+
+    .heroButton button {
+        width: 100px;
+        height: 35px;
+    }
+
+    .projectTitle {
+        font-size: 20px;
+    }
+
+    .about h2,
+    .projectSection h1,
+    .experiences h2 {
+        font-size: 32px;
+    }
+}
+
+
 
 
